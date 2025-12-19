@@ -1,0 +1,17 @@
+MIT OpenCourseWare Content License
+
+This repository includes excerpts from MIT OpenCourseWare (OCW) materials.
+
+Source: MIT OpenCourseWare (https://ocw.mit.edu)
+License: Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International
+(CC BY-NC-SA 4.0)
+License URL: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+The following directories contain MIT OCW content and derivative works:
+- data/ocw_raw/
+- data/ocw_chunks/
+
+These materials are provided for non-commercial, educational, and research
+purposes only. Any reuse or redistribution must comply with the terms of the
+CC BY-NC-SA 4.0 license, including attribution, non-commercial use, and
+share-alike requirements.
