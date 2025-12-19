@@ -1,0 +1,26 @@
+{
+  "1": {
+    "retrieval_recall": 1,
+    "retrieval_ndcg": 1.0,
+    "reranked_recall": 1,
+    "reranked_ndcg": 1.0
+  },
+  "5": {
+    "retrieval_recall": 1,
+    "retrieval_ndcg": 1.0,
+    "reranked_recall": 1,
+    "reranked_ndcg": 1.0
+  },
+  "10": {
+    "retrieval_recall": 1,
+    "retrieval_ndcg": 1.0,
+    "reranked_recall": 1,
+    "reranked_ndcg": 1.0
+  },
+  "20": {
+    "retrieval_recall": 1,
+    "retrieval_ndcg": 1.0,
+    "reranked_recall": 1,
+    "reranked_ndcg": 1.0
+  }
+}

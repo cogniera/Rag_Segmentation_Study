@@ -1,0 +1,44 @@
+[
+  {
+    "query_id": "q_001",
+    "query": "Under what conditions does a time-dependent transition probability become a well-defined transition rate, and why does this transition rely on the presence of a continuum of final states rather than a single discrete state?",
+    "gold_chunk_id": null,
+    "evidence_note": "Lecture 10: derivation of Fermi’s golden rule, long-time limits, oscillatory integrals, and integration over a continuum of energies contrasted with discrete transitions."
+  },
+  {
+    "query_id": "q_002",
+    "query": "Why does a constant (time-independent) perturbation fail to efficiently drive transitions between states of significantly different energies, and how does this limitation motivate the sinc-squared factor that appears in the transition probability?",
+    "gold_chunk_id": null,
+    "evidence_note": "Lecture 10: early derivation of transition amplitudes for constant perturbations, focusing on time integrals and suppression due to energy mismatch."
+  },
+  {
+    "query_id": "q_003",
+    "query": "What assumptions about the spatial structure and wavelength of electromagnetic radiation justify replacing the atom–field interaction with a dipole coupling, and what physical effects are explicitly neglected as a result?",
+    "gold_chunk_id": null,
+    "evidence_note": "Lecture 12: atom–light interaction setup, including the dipole approximation and neglect of magnetic effects and spatial field variation."
+  },
+  {
+    "query_id": "q_004",
+    "query": "Why are absorption and stimulated emission alone insufficient to produce thermal equilibrium in Einstein’s rate equations, and how does the introduction of spontaneous emission resolve this inconsistency at all temperatures?",
+    "gold_chunk_id": null,
+    "evidence_note": "Lecture 12: Einstein’s balance argument showing failure of equilibrium without spontaneous emission."
+  },
+  {
+    "query_id": "q_005",
+    "query": "How does averaging over photon directions and polarizations in thermal radiation modify the role of the dipole matrix element, and why does this averaging fundamentally change the structure of the final transition rate?",
+    "gold_chunk_id": null,
+    "evidence_note": "Lectures 11–13: treatment of incoherent radiation and angular averaging replacing directional dipole dependence."
+  },
+  {
+    "query_id": "q_006",
+    "query": "Why does gauge invariance require the wave function to transform alongside the electromagnetic potentials, and how does this requirement restrict which operators can be considered physically observable?",
+    "gold_chunk_id": null,
+    "evidence_note": "Lectures 13–14: discussion of gauge transformations, covariant derivatives, and canonical versus gauge-invariant momentum."
+  },
+  {
+    "query_id": "q_007",
+    "query": "Why does a uniform magnetic field that satisfies Maxwell’s equations fail to define a valid quantum system on a torus unless the magnetic flux is quantized, and how does this constraint arise from gauge consistency?",
+    "gold_chunk_id": null,
+    "evidence_note": "Lecture 14: magnetic fields on topologically nontrivial spaces, vector potentials, and flux quantization."
+  }
+]
