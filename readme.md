@@ -1,7 +1,10 @@
-# Chunking as a Retrieval Bottleneck in Commercial used RAG Systems  
+# Chunking as a Retrieval Bottleneck in Commercial used RAG Systems Phase 1
 An Empirical Systems Level Evaluation Using Cohere Embed & Rerank
 
 ---
+
+## Note : 
+### These findings are in a constrained environemnt and cannot be generalized towards the performance of these commercial stacks on other constraints and environments as the scope of this project is on a narrow corpus. This study isolated for chunking method in a controlled environment 
 
 ## Overview
 
@@ -9,13 +12,13 @@ Modern Retrieval-Augmented Generation (RAG) systems rely heavily on commercial e
 
 This project challenges that assumption.
 
-We present an empirical systems evaluation demonstrating that static, query-independent chunking introduces a recall ceiling that even state-of-the-art rerankers cannot overcome. By holding embeddings and reranking constant and varying only the chunking strategy, we show that chunking directly constrains what information is retrievable, shaping end-to-end system performance.
+We present an Phase 1 empirical systems evaluation that isolates the impact of document chunking on retrieval performance in a commercial used RAG stack. By holding embeddings and reranking constant and varying only the chunking strategy, we show that chunking directly constrains what information is retrievable, shaping end-to-end system performance.
 
 ---
 
 ## Core Question
 
-> Can strong commercial used rerankers compensate for poor document segmentation or does chunking fundamentally bound retrieval performance?
+> Can large-context commercial rerankers compensate for poor document segmentation, or does chunking fundamentally bound retrieval performance in RAG systems?
 
 ---
 
@@ -56,8 +59,8 @@ This work adopts a black-box systems evaluation approach appropriate for commerc
 
 - Recall@k (k ∈ {1, 5, 10, 20})
 - NDCG@k
-- MRR (reported where applicable)
-
+- MRR
+  
 ---
 
 ## Results Summary
@@ -75,7 +78,7 @@ Full tables, plots, and recall ceiling analyses are provided in the report.
 
 ## Why This Matters
 
-- Confirms recall bounded reranking in real world, commercial RAG stacks
+- Confirms recall bounded reranking in real world
 - Demonstrates that better scoring cannot compensate for poor segmentation
 - Provides practical guidance for engineers building RAG systems with proprietary APIs
 - Aligns with emerging literature on retrieval failure modes, but tests them in production-like conditions
@@ -117,3 +120,12 @@ The report includes:
 - Systems-level interpretation
 
 
+@misc{duarte2024lumberchunker,
+      title={LumberChunker: Long-Form Narrative Document Segmentation}, 
+      author={André V. Duarte and João Marques and Miguel Graça and Miguel Freire and Lei Li and Arlindo L. Oliveira},
+      year={2024},
+      eprint={2406.17526},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2406.17526}, 
+}
