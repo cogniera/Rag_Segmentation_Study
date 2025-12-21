@@ -16,7 +16,7 @@ We present an Phase 1 empirical systems evaluation that isolates the impact of d
 
 ---
 
-## Core Question
+## Core Question for all phases
 
 > Can large-context commercial rerankers compensate for poor document segmentation, or does chunking fundamentally bound retrieval performance in RAG systems?
 
@@ -129,6 +129,7 @@ The report includes:
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2406.17526}, 
 }
+
 
 
 
