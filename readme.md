@@ -12,8 +12,6 @@ This is the **Phase 1** of the project and future work will improve on the query
 
 Modern Retrieval-Augmented Generation (RAG) systems rely heavily on commercial embedding and reranking APIs (e.g., Cohere Embed, Cohere Rerank). These components deliver strong performance but operate as black boxes.
 
-This project challenges that assumption.
-
 We present an Phase 1 empirical systems evaluation that isolates the impact of document chunking on retrieval performance in a commercial used RAG stack. By holding embeddings and reranking constant and varying only the chunking strategy, we show that chunking directly constrains what information is retrievable, shaping end-to-end system performance.
 
 ---
@@ -131,6 +129,7 @@ The report includes:
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2406.17526}, 
 }
+
 
 
 
