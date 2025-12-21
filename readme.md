@@ -45,9 +45,9 @@ This work adopts a black-box systems evaluation approach appropriate for commerc
 
 ### Controlled Components (held constant)
 
-- **Embedding model:** Cohere Embed v4  
-- **Reranking model:** Cohere Rerank 4 (32K context window)  
-- **Retrieval strategy:** Dense retrieval (Top-150 to rerank Top-20)  
+- **Embedding model:** Cohere Embed   
+- **Reranking model:** Cohere Rerank   
+- **Retrieval strategy:** Dense retrieval 
 - **Corpus:** MIT OpenCourseWare *Quantum Physics III* lectures  
 - **Queries:** Conceptual, long form technical questions  
 
@@ -131,5 +131,6 @@ The report includes:
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2406.17526}, 
 }
+
 
 
