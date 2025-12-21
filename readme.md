@@ -10,7 +10,7 @@ This is the **Phase 1** of the project and future work will improve on the query
 
 ## Overview
 
-Modern Retrieval-Augmented Generation (RAG) systems rely heavily on commercial embedding and reranking APIs (e.g., Cohere Embed, Cohere Rerank). These components deliver strong performance but operate as black boxes, encouraging practitioners to treat upstream design decisions such as document chunking as secondary.
+Modern Retrieval-Augmented Generation (RAG) systems rely heavily on commercial embedding and reranking APIs (e.g., Cohere Embed, Cohere Rerank). These components deliver strong performance but operate as black boxes.
 
 This project challenges that assumption.
 
@@ -131,6 +131,7 @@ The report includes:
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2406.17526}, 
 }
+
 
 
 
