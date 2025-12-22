@@ -6,7 +6,7 @@ An Empirical Systems Level Evaluation Using Cohere Embed & Rerank
 ## Note : 
 ### These findings are in a constrained environemnt and cannot be generalized towards the performance of these commercial stacks on other constraints and environments as the scope of this project is on a narrow corpus. This study isolated for chunking methods in a controlled environment 
 
-### the research PDF had a error on the claim of the model used for this project and is being fixed and will be reuploded once complete
+### the research PDF had a error on the claim of the model used for this project, it is now fixed and is pricise about the componenets used
 
 This is the **Phase 1** of the project and future work will improve on the query-independent structure of this project , further increasing interaction in between the query and the corpus
 
@@ -131,6 +131,7 @@ The report includes:
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2406.17526}, 
 }
+
 
 
 
